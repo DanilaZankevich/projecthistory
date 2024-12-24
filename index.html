@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Языковая ситуация в Беларуси</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Переключатель темы -->
+<div class="theme-toggle">
+    <button id="toggle-theme">Переключить тему</button>
+</div>
+
+<!-- Первый блок -->
+<div class="block" id="block1">
+    <h1>Языковая ситуация в Беларуси: История и современность</h1>
+    <p class="authors">Занкевич Данила</p>
+    <p class="authors">Молчан Матвей</p>
+    <p class="authors">Селезнев Иван</p>
+    <p class="authors">Потоцкий Александр</p>
+    <p class="authors">Игнаткович Артём</p>
+    <button class="start-btn">Начать</button>
+</div>
+
+<!-- Второй блок -->
+<div class="block" id="block2">
+    <div class="buttons">
+        <button data-target="content1">1. Введение</button>
+        <button data-target="content2">2. Исторический контекс</button>
+        <button data-target="content3">3. Советский период: После Второй мировой войны и до 1990-х годов</button>
+        <button data-target="content4">4. Период независимости: 1990-е годы и начало 2000-х</button>
+        <button data-target="content5">5 Языковая ситуация в 21 веке</button>
+        <button data-target="content6"> 6. Заключение</button>
+    </div>
+    <button class="back-btn">Вернуться назад</button>
+</div>
+
+<!-- Третий блок для отображения текста -->
+<div class="block" id="block3">
+    <div id="content-container"></div>
+    <button class="back-btn">Вернуться назад</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
